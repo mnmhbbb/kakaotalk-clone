@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>채팅 | Kakao Clone</title>
+
+    <!--아래의 코드가 있어야 아이콘 입력이 가능함!-->
+    <script
+      src="https://kit.fontawesome.com/fdea6ac0a7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <!--와이파이 아이콘 등등이 들어갈 곳-->
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-lever">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <!--여기까지 상단바였고 이제부터 헤더-->
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">채팅</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats__list"></ul>
+      <li class="chat chat">
+        <a href="chat.html"
+          ><!--요렇게 a처럼 링크 넣을 생각을 어떻게 하지..-->
+          <div class="chat__column">
+            <img
+              class="chat__avator"
+              src="file:///C:/Users/%EC%9C%A0%EC%A0%80/Desktop/kakaotalk-clone/userprofile.png"
+            />
+            <div class="chat__content">
+              <span class="chat__username">미녕</span>
+              <span class="chat__preview">ㅋㅋ</span>
+            </div>
+          </div>
+          <div class="chat__column">
+            <span class="chat__timestamp">어제</span>
+          </div>
+        </a>
+      </li>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
