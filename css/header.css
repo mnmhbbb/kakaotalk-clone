@@ -11,14 +11,16 @@
 }
 
 .header .chat__header__title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
-  margin: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -20px;
 }
 
 .header .header__icon {
   font-size: 20px;
-  margin-left: 13px;
+  margin-left: 10px;
 }
 
 .header .header__header-column {
@@ -27,5 +29,5 @@
 }
 
 .header .header__back-btn {
-  font-size: 13px;
+  font-size: 20px;
 }
