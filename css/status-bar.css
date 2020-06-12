@@ -12,3 +12,7 @@
 .fas.fa-wifi {
   margin-left: 8px;
 }
+
+a {
+  color: inherit;
+}

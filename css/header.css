@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header .chat__header__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 13px;
+}
