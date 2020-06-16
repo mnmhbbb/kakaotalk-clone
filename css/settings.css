@@ -1,6 +1,6 @@
 .settings .settings__sections {
   border-top: 1.5px solid #f7f7f7;
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 
 .settings__setting .settings__icon {
@@ -14,8 +14,10 @@
 
 .settings .settings__setting {
   border-bottom: 1px solid #f7f7f7;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
+}
+
+.settings .settings__setting {
+  padding: 15px 0px;
 }
 
 .settings .settings__setting:last-child {
