@@ -9,7 +9,7 @@
 
 .chats-body .header,
 .chats-body .status-bar {
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .chat__write {
@@ -62,6 +62,7 @@
   padding: 5px 10px;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-top: 10px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   opacity: 0.6;
@@ -69,8 +70,9 @@
 
 .message {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 50%;
+  margin-bottom: 10px;
 }
 
 .incoming-message img {
@@ -84,7 +86,7 @@
 }
 
 .sent-message {
-  align-self: flex-end;
+  justify-content: flex-end;
 }
 
 .message .message__bubble {
@@ -93,4 +95,19 @@
   background-color: white;
   padding: 10px 20px;
   border-radius: 20px;
+}
+
+.incoming-message .message__bubble {
+  border-top-left-radius: 0;
+}
+
+.sent-message .message__bubble {
+  border-bottom-right-radius: 0;
+}
+
+.incoming-message .messahe__author {
+  margin-bottom: 7px;
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
 }
